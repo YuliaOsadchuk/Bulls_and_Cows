@@ -9,7 +9,7 @@ public class Main {
             return Integer.MAX_VALUE;
         } else if (val < Integer.MIN_VALUE) {
             return Integer.MIN_VALUE;
-        }else {
+        } else {
             return Integer.parseInt(String.valueOf(val));
         }
     }
