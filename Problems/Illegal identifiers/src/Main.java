@@ -7,7 +7,7 @@ public class Main {
 
         int numberOfVariables = Integer.parseInt(scanner.nextLine());
 
-        String regex = "\\b([a-zA-Z]|_[^_])(\\w+)?";
+        String regex = "\\b([a-zA-Z]|_[^_])\\w*";
 
         for (int i = 0; i < numberOfVariables; i++) {
             String identifier = scanner.nextLine();
