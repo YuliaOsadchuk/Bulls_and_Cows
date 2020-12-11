@@ -16,3 +16,4 @@ content:
 - Number parsing
 - Remove extra spaces
 - Remove HTML tags
+- Remove comments
