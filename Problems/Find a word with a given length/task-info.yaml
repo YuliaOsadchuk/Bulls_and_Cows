@@ -1,0 +1,26 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.*;
+    import java.util.regex.*;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            int size = Integer.parseInt(scanner.nextLine());
+            String line = scanner.nextLine();
+
+            // write your code here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4347#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #4 of 9. Wrong answer
+  time: Fri, 11 Dec 2020 07:54:03 UTC
+record: -1

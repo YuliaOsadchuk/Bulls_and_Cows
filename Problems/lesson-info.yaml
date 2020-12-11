@@ -11,3 +11,5 @@ content:
 - Check the clock time
 - Illegal identifiers
 - Start or end of a word
+- Find a word with a given length
+- In the middle of a word
