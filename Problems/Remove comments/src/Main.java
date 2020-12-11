@@ -8,8 +8,5 @@ public class Main {
 
         codeWithComments = codeWithComments.replaceAll("\\/\\*.*?\\*\\/|\\/\\/.+", "");
         System.out.println(codeWithComments);
-
-        int b=0;
-        b =b *b;
     }
 }
