@@ -10,14 +10,14 @@ class Main {
 
         String text = scanner.nextLine();
 
-        Pattern p = Pattern.compile("\\bpassword.+?\\S\\b", Pattern.CASE_INSENSITIVE);
+        Pattern p = Pattern.compile("\\bpassword:?(.+?\\S)\\b", Pattern.CASE_INSENSITIVE);
         Matcher m = p.matcher(text);
         boolean find = false;
         while (m.find()) {
-            Pattern pp = Pattern.compile("password:?", Pattern.CASE_INSENSITIVE);
+            /*Pattern pp = Pattern.compile("password:?", Pattern.CASE_INSENSITIVE);
 
-            String s = m.group().replaceAll("password:?".toLowerCase(), "");
-            System.out.println(s.trim());
+            String s = m.group().replaceAll("password:?".toLowerCase(), "");*/
+            System.out.println(m.group(1).trim());
             find = true;
         }
         if (!find) {
