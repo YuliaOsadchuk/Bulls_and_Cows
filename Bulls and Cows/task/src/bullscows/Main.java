@@ -6,14 +6,14 @@ import java.util.Scanner;
 public class Main {
     public static int bulls = 0;
     public static int cows = 0;
-    public static int secretNumber = 9305;
+    public static int secretNumber;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int inputNumber = scanner.nextInt();
         Random random = new Random();
         //secretNumber = random.nextInt(10000);
-        scoreBulls(inputNumber);
+        //scoreBulls(inputNumber);
     }
 
     public static void scoreBulls(int inputNumber) {
